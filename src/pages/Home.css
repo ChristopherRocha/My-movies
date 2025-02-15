@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .title {
+  margin-top: 1rem;
+}
+
+.estrela-avaliacao svg {
+  color: #f58a07;
+}
+
+.movies-container {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.movies-container div {
+  width: 23%;
+  color: whitesmoke;
+  margin-bottom: 2rem;
+  border: 2px solid #f58a07;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #111;
+}
+
+.movies-container div img {
+  max-width: 100%;
+}
+
+.movies-container div img,
+.movies-container div p,
+.movies-container h2 {
+  margin-bottom: 0.7rem;
+}
+
+.movies-container div a {
+  background-color: #f58a07;
+  border: 2px solid #f58a07;
+  color: black;
+  text-align: center;
+  padding: 1rem 0.5rem;
+  border-radius: 8px;
+}
+
+.movies-container div a:hover {
+  border: 2px solid #f58a07;
+  background-color: black;
+  color: #f58a07;
+}

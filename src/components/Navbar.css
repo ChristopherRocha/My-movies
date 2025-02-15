@@ -1,0 +1,63 @@
+.main-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #121212;
+}
+
+.main-navbar h2 a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.filters ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.filters ul li {
+  font-size: 1.1rem;
+}
+
+.filters a {
+  cursor: pointer;
+  color: #f58a07;
+}
+
+.filters a:hover {
+  color: #a63a50;
+  text-decoration: underline;
+}
+
+.main-navbar form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.main-navbar input {
+  border-radius: 5px;
+  padding: 0.1rem 0.6rem;
+  border: none;
+}
+
+.main-navbar form button {
+  background-color: #f58a07;
+  border: none;
+  border-radius: 5px;
+  padding: 0.1rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
